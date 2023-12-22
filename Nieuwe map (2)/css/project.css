@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: auto;
+    background-color: #8f7f6f;
+
+}
+
+.title {
+    text-align: center;
+
+}
+
+.inleiding {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img {
+    margin-top: 20px;
+    position: absolute;
+    max-width: 400px;
+    left: 380px;
+}
+
+.project {
+    margin-left: 500px;
+}
+
+.zeeImg {
+    margin-top: 25px;
+    position: absolute;
+    max-width: 400px;
+    left: 920px;
+}
+
+.zee {
+    margin-top: 225px;
+    position: absolute;
+    margin-left: 570px;
+    border-style: solid;
+    border-top: 0px;
+    border-color: #000;
+}
+
+.hoger {
+    margin-top: 225px;
+    position: absolute;
+    border-style: solid;
+    border-top: 0px;
+    border-color: #000;
+
+
+}
+
+.hoger:hover {
+    background-color: #717171;
+}
+
+.zee:hover {
+    background-color: #717171;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: #252627;
+    overflow: auto;
+}
+
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+
+.active {
+    background-color: #eed191;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
