@@ -17,8 +17,8 @@ body {
 
 .inleiding {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .img {
@@ -29,6 +29,8 @@ body {
 }
 
 .project {
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
     margin-left: 500px;
 }
 
@@ -39,31 +41,41 @@ body {
     left: 920px;
 }
 
-.zee {
+.see h2 {
     margin-top: 225px;
     position: absolute;
     margin-left: 570px;
     border-style: solid;
     border-top: 0px;
     border-color: #000;
+
+}
+.see{
+    grid-row: 2/3;
+    grid-column: 1/2;
 }
 
-.hoger {
+.higher h2 {
     margin-top: 225px;
     position: absolute;
     border-style: solid;
     border-top: 0px;
     border-color: #000;
-
-
 }
 
-.hoger:hover {
-    background-color: #717171;
+.higher{
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 
-.zee:hover {
+.higher:hover h2{
     background-color: #717171;
+    cursor: pointer;
+}
+
+.see:hover h2 {
+    background-color: #717171;
+    cursor: pointer;
 }
 
 
@@ -81,7 +93,7 @@ body {
     padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 .navbar a:hover {
