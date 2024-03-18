@@ -86,4 +86,24 @@ hr {
         float: none;
         display: block;
     }
+    .body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .container{
+        float: none;
+        display: block;
+    }
+    .cssText{
+        margin-top: 10px;
+    }
+    .javaText{
+        margin-top: 10px;
+    }
+    .img{
+        max-width: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
 }

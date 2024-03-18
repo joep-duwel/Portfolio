@@ -15,30 +15,31 @@ body {
 
 }
 
+
 .inleiding {
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .img {
     margin-top: 20px;
     position: absolute;
     max-width: 400px;
-    left: 380px;
+    left: 480px;
 }
 
 .project {
-    display: grid ;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 600px;
 }
 
-.zeeImg {
+.seeImg {
     margin-top: 25px;
     position: absolute;
     max-width: 400px;
-    left: 920px;
+    left: 1020px;
 }
 
 .see h2 {
@@ -50,7 +51,8 @@ body {
     border-color: #000;
 
 }
-.see{
+
+.see {
     grid-row: 2/3;
     grid-column: 1/2;
 }
@@ -63,12 +65,12 @@ body {
     border-color: #000;
 }
 
-.higher{
+.higher {
     grid-row: 1/2;
     grid-column: 1/2;
 }
 
-.higher:hover h2{
+.higher:hover h2 {
     background-color: #717171;
     cursor: pointer;
 }
@@ -98,7 +100,7 @@ body {
 
 .navbar a:hover {
     background-color: #000;
-    
+
 }
 
 
@@ -111,5 +113,45 @@ body {
     .navbar a {
         float: none;
         display: block;
+    }
+
+    .body {
+       margin-left: 10px;
+    }
+
+    .inleiding {
+        position: absolute;
+        left: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img {
+        max-width: 400px;
+        top: 900px;
+        left: 50px;
+    }
+
+    .project {
+        float: none;
+       display: contents;
+    }
+
+
+    .seeImg {
+        max-width: 400px;
+        left: 50px;
+        top: 1150px;
+    }
+    .seeText{
+        
+        left: 0;
+    }
+    .higherText{
+      opacity: 0;
+    
+    }
+    .higher {
+       top: 950px      
     }
 }
