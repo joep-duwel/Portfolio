@@ -6,7 +6,7 @@
 
 body {
     margin: auto;
-    background-color: #8f7f6f;
+    background-color: white;
 
 }
 
@@ -42,7 +42,7 @@ body {
 
 
 .active {
-    background-color: #eed191;
+    background-color: #bbb;
 }
 
 hr {

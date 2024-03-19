@@ -6,7 +6,7 @@
 
 body {
     margin: auto;
-    background-color: #8f7f6f;
+    background-color: white;
 
 }
 .title{
@@ -38,7 +38,7 @@ body {
 
 
 .active {
-    background-color: #eed191;
+    background-color: #bbb;
 }
 .con:link, .con:visited {
     margin-top: 1px;
