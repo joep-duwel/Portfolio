@@ -139,10 +139,185 @@ body {
     background-color: #bbb;
 }
 
+main {
+    padding: 0 64px 64px;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url(/img/project-manager-updating-tasks-milestones-260nw-734184223.webp);
+    background-size: cover;
+  }
+  .card2 {
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url(/img/);
+    background-size: cover;
+  }
+  .card3 {
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url(/img/image_2021_10_27T07_34_26_653Z_1_1.png);
+    background-size: cover;
+  }
+  
+  .info {
+    position: relative;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(100%);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .info:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%) translateY(88px) translateZ(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  
+  .card:hover .info,
+  .card:hover .info:before  {
+    transform: translateY(0);
+  }
+  .card2:hover .info,
+  .card2:hover .info:before  {
+    transform: translateY(0);
+  }
+  .card3:hover .info,
+  .card3:hover .info:before  {
+    transform: translateY(0);
+  }
+  .title {
+    margin: 0;
+    padding: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  * {
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: Open Sans, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    line-height: 1.45;
+  }
+  
+  body,
+  header {
+    background: #fafafa;
+  }
+  
+  header>:last-child {
+    margin-bottom: 0;
+  }
+  
+  h1 {
+    margin-bottom: 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+    color: #1c5b72;
+    font-size: 2.618em;
+  }
+  
+  @media (min-width: 800px) {
+    h1 {
+      font-size: 4.236em;
+      font-weight: 300;
+    }
+  
+    p {
+      font-size: 1.3em;
+    }
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+
+
 @media screen and (max-width: 500px) {
     .navbar a {
         float: none;
         display: block;
     }
     
+}
+footer {
+    background-color: #252627;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
 }
