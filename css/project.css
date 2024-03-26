@@ -118,21 +118,35 @@ body {
     height: 300px;
     border-radius: 16px;
     overflow: hidden;
-    background-image: url(/img/Schermafbeelding\ 2023-12-21\ 221109.png);
+    background-image: url(/img/see.png);
     background-size: cover;
   }
   .card2 {
     height: 300px;
     border-radius: 16px;
     overflow: hidden;
-    background-image: url(/img/Schermafbeelding\ 2023-12-21\ 213822.png);
+    background-image: url(/img/high.png);
     background-size: cover;
   }
   .card3 {
     height: 300px;
     border-radius: 16px;
     overflow: hidden;
-    background-image: url(/img/Schermafbeelding\ 2024-03-25\ 0026031.png);
+    background-image: url(/img/webshope.png);
+    background-size: cover;
+  }
+  .card4 {
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url(/img/escaperoom.png);
+    background-size: cover;
+  }
+  .card5 {
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url(/img/webshop-po2.png);
     background-size: cover;
   }
   
@@ -170,6 +184,14 @@ body {
   }
   .card3:hover .info,
   .card3:hover .info:before  {
+    transform: translateY(0);
+  }
+  .card4:hover .info,
+  .card4:hover .info:before  {
+    transform: translateY(0);
+  }
+  .card5:hover .info,
+  .card5:hover .info:before  {
     transform: translateY(0);
   }
   .title {
